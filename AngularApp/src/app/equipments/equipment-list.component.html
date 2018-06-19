@@ -1,0 +1,37 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <input type='text' [(ngModel)]='listFilter' />
+            </div>
+        </div>
+        <div class='table-responsive'>
+            <kendo-grid
+                [data]="filteredEquipments"
+                [pageSize]="pageSize"
+                [skip]="skip"
+                [sortable]="true"
+                [sort]="sort"
+                [pageable]="false"
+                [height]="550"
+                (dataStateChange)="dataStateChange($event)"
+              >
+              <kendo-grid-column field="id" width="100"></kendo-grid-column>
+              <kendo-grid-column field="equipmentName" width="200" title="Name"></kendo-grid-column>
+              <kendo-grid-column field="equipmentLocation"  title="Location"></kendo-grid-column>
+              <kendo-grid-column field="purchased"  title="Date Purchased"></kendo-grid-column>
+              <kendo-grid-column field="purchasePrice"  title="Price"></kendo-grid-column>
+              <div *kendoGridDetailTemplate="let dataItem">
+                <equipment-activity [equipment]="dataItem"></equipment-activity>
+              </div>
+            </kendo-grid>
+        </div>
+    </div>
+</div>
+<div *ngIf='errorMessage' class='alert alert-danger'>
+    Error: {{ errorMessage }}
+</div>

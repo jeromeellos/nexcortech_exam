@@ -1,0 +1,11 @@
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
+C:\Users\jerom\Desktop\nexcortech-exam\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojResolveAssemblyReference.cache
